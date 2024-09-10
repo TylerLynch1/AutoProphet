@@ -1,0 +1,14 @@
+# This is a configuration file for Dependabot, a tool that automates dependency updates for your projects.
+
+version: 2  # This specifies the version of the Dependabot configuration schema
+
+updates:
+  - package-ecosystem: "npm"  # This indicates that Dependabot should check for npm updates
+    directory: "/"  # This specifies the root directory where package.json is located
+    schedule:
+      interval: "daily"  # Dependabot will check for updates daily
+
+  - package-ecosystem: "github-actions"  # This configures Dependabot for GitHub Actions
+    directory: "/"  # Location of your GitHub Actions workflows
+    schedule:
+      interval: "daily"  # Dependabot will check for updates to GitHub Actions daily
