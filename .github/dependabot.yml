@@ -4,7 +4,7 @@ version: 2  # This specifies the version of the Dependabot configuration schema
 
 updates:
   - package-ecosystem: "npm"  # This indicates that Dependabot should check for npm updates
-    directory: "/"  # This specifies the root directory where package.json is located
+    directory: "../auto-prophet/"  # This specifies the root directory where package.json is located
     schedule:
       interval: "daily"  # Dependabot will check for updates daily
 
